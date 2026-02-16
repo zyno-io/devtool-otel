@@ -1,17 +1,19 @@
 {
-  "name": "@signal24/devtool-otel",
-  "version": "0.0.6",
+  "name": "@zyno-io/devtool-otel",
+  "version": "0.0.7",
   "description": "One-liner to start/stop local OpenTelemetry tools for development",
   "main": "cli.mjs",
-  "bin": {
-    "@signal24/devtool-otel": "cli.mjs"
-  },
+  "bin": "./cli.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Signal24 <devops@sgnl24.com>",
+  "author": {
+      "name": "Signal24 LLC dba Zyno Consulting",
+      "email": "support@zyno.io",
+      "url": "https://zyno.io"
+  },
   "license": "MIT",
   "dependencies": {
-    "which": "^4.0.0"
+    "which": "^6.0.1"
   }
 }

@@ -17,6 +17,15 @@ datasources:
       serviceMap:
         datasourceUid: prometheus
 
+  - name: Loki
+    type: loki
+    access: proxy
+    orgId: 1
+    url: http://loki:3100
+    version: 1
+    editable: false
+    uid: loki
+
   - name: Mimir
     type: prometheus
     access: proxy

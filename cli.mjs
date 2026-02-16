@@ -29,7 +29,7 @@ async function up() {
   });
 
   console.log(
-    `\nOpenTelemetry setup:\nexport OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4318\n\nYou can now access Grafana at:\nhttp://localhost:3200/explore\n`
+    `\nOpenTelemetry setup:\nexport OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4318\n\nLoki push API:\nhttp://localhost:3100\n\nYou can now access Grafana at:\nhttp://localhost:3200/explore\n`
   );
 }
 
