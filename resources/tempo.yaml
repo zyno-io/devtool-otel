@@ -25,10 +25,6 @@ ingester:
   trace_idle_period: 5s
   max_block_duration: 30s
 
-compactor:
-  compaction:
-    block_retention: 24h
-
 storage:
   trace:
     backend: local
